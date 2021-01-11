@@ -13,21 +13,28 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
-  tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
-
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: 아두이노를 이용한 스마트 주차장 시스템
+  descr: "각 주차장의 각 층마다 설치된 아두이노 보드를 통해 센서값을 주차장 서버가 모아주고, 주차장 서버(Local Server)에서 센서값을 계산하여 주차가능 유무를 판별, 메인 서버로 전송하여 메인 서버에서는 모든 주차장의 정보들을 통합 관리하고, Client들의 접속과 Admin의 접속을 관리합니다."
+  demo: https://github.com/mario3316/SmartParkingLotSystem
   tags:
     - tag: Python
-    - tag: Django
+    - tag: Aruino
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: 얼굴인식 스마트 도어
+  descr: "AWS Recognition 서비스를 이용하여 이미지를 통해 얼굴을 인식하고 AWS Lambda, AWS S3, IoT Rule을 통해 자동화된 스마트 도어"
+  demo: https://github.com/mario3316/FaceRecognitionService
+  tags:
+    - tag: Javascript
+    - tag: Node
+    - tag: AWS
+
+- name: 딥러닝 영화평 리뷰 분석
+  descr: "KoElectra 기반 RNN 언어 모델을 이용한 딥러닝 영화평 리뷰 분석 웹 서비스"
+  demo: http://dslab.konkuk.ac.kr/Class/2020/20GP2/Projects/2nd/[T4]Demo.mp4
+  tags:
+    - tag: Python
+    - tag: Pytorch
+    - tag: Javascript
+    - tag: React
+    - tag: Node
+    - tag: Express
