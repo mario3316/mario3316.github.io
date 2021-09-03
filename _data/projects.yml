@@ -38,3 +38,22 @@
     - tag: React
     - tag: Node
     - tag: Express
+
+- name: 부동산 시세조회 웹 서비스 (SSAFY)
+  descr: "MVC 패턴을 이용하여 공공데이터 포털의 데이터를 기반으로 아파트, 주택별 매매/전,월세 거래 정보와 주택 정보 데이터를 관리하고, 고객에게 원하는 주택 정보를 검색할 수 있는 서비스"
+  demo: https://github.com/mario3316/HappyHouse
+  tags:
+    - tag: Java
+    - tag: Spring Boot
+    - tag: Mybatis
+    - tag: MySQL
+
+- name: RabbitMQ 모니터링 및 알림 시스템 (2021 카카오 인턴십)
+  descr: "멀티 트랜잭션 아키텍쳐에서 메시지큐들의 비정상적인 상황을 감지하기 위해 사용자가 각 메시지큐에 알림을 등록하고 비정상적인 상황이 발생했을 경우 카카오톡으로 실시간 알림을 받는 서비스"
+  tags:
+    - tag: Java
+    - tag: Spring Boot
+    - tag: JPA Hibernate
+    - tag: MySQL
+    - tag: Docker
+    - tag: Kubernetes

@@ -43,3 +43,13 @@
     - tag: Spring
     - tag: Vue.js
   timeline-side: right
+
+- title: 2021 카카오 인턴십
+  title-url: https://careers.kakao.com/2021-intern
+  date: Jun 28th 2021 - Aug 31st 2021
+  subtitle: 메일개발팀 인턴
+  tags:
+    - tag: Java
+    - tag: Spring
+    - tag: JPA Hibernate
+  timeline-side: left
